@@ -16,7 +16,7 @@ Ce fichier contient la description de l'environnement 3D du labyrinthe<br>
 
 Le fichier laby.launch est utilisé pour lancer la simulation Gazebo avec la configuration du monde défini dans le fichier laby.world<br>
 
-roslaunch your_package laby.launch<br>
+<span style="color: green">roslaunch your_package laby.launch</span><br>
 
 
 Partie 2 : Construction de Carte SLAM avec TurtleBot<br>
