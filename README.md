@@ -93,7 +93,16 @@ Il est rapide mais ne garantit pas d'obtenir le chemin optimal.
   - Cet algorithme est utilisé dans des scénarios où la rapidité prime sur l'optimalité.
 
 ## Partie 4 : Navigation Autonome d’une Carte Connue avec TurtleBot<br>
+**Charger une Carte Connue :**<br>
+Dans un terminal : `roslaunch robotique_projet laby.launch`<br>
+Lancer le serveur de la carte:<br>
+Dans un terminal : `roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/path/to/your/map.yaml`<br>
+Localisation du robot:<br>
+Dans un terminal : `roslaunch turtlebot3_navigation amcl.launch`<br>
 
+
+**Naviguer vers un Objectif :**
+Dans un terminal : `roslaunch turtlebot3_navigation turtlebot3_navigation.launch`<br>
 
 
 ## Partie 5 : Implémentation d’une tâche de Motion Planning (Planification de Mouvement)<br>
