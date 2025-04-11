@@ -9,6 +9,8 @@ Gazebo : La simulation se fait avec Gazebo.<br>
 TurtleBot3 : Le modèle de robot utilisé dans ce projet.<br>
 Gmapping : Pour le processus SLAM.<br>
 
+Package robotique_projet à installer
+
 ## Partie 1 : Simulation dans Gazebo d’un Lieu Réel avec Obstacles<br>
 
 Dans cette première partie, l'objectif est de recréer un environnement, comme un labyrinthe, dans le simulateur Gazebo. <br>
