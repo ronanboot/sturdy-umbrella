@@ -1,0 +1,8 @@
+<launch>
+    <!-- Définir le chemin vers le monde 'laby' -->
+    <arg name="world_name" default="$(find robotique_projet)/worlds/laby.world" />
+    
+    <!-- Lancer Gazebo avec ce monde -->
+    <node name="gazebo" pkg="gazebo_ros" type="gzserver" args="$(arg world_name)" />
+    <node name="gazebo_gui" pkg="gazebo_ros" type="gzclient" />
+</launch>
