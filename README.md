@@ -46,7 +46,7 @@ des algorithmes de recherche en largeur et best-first.
 
 **Paramètres :**
   - Fonction heuristique (h) : Estimation du coût restant pour atteindre l'objectif.
-    Exemple : Distance Euclidienne ou Manhattan.
+    Exemple : Distance Euclidienne.
   - Coût de déplacement (g) : Le coût accumulé pour atteindre un point particulier.
   - Fonction de coût total (f) : f(n) = g(n) + h(n), utilisée pour guider la recherche.
 
