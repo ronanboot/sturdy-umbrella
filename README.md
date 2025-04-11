@@ -25,7 +25,7 @@ Dans un terminal : `roslaunch robotique_projet laby.launch`<br>
 Lancez le TurtleBot dans un environnement contrôlé.<br>
 Dans un terminal : `roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`<br>
 
-Déplacez le TurtleBot dans l’environnement pour couvrir toutes les zones accessibles. Vous peuvent choisir entre implémenter un contrôle par clavier ou viaun joystick externe.<br>
+Déplacez le TurtleBot dans l’environnement pour couvrir toutes les zones accessibles. Vous peuvent choisir entre implémenter un contrôle par clavier ou via un joystick externe.<br>
 - version keyboard<br>
 Dans un terminal : `roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`<br>
 - version joystick(à vérifier)<br>
